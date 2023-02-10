@@ -84,9 +84,9 @@ function asAmirror(frase){
       
       for(var i in stringOld){
           nuevaPalabra.unshift(stringOld[i])
-      }
+        }
       return nuevaPalabra.join('') 
-  }
+    }
   
   var fraseArray = frase.split(' ');
   var fraseNueva = []
@@ -101,14 +101,14 @@ function capicua(numero) {
    // Caso contrario: "No es capicua".
    // Tu código:
    function rever(string){
-      var stringOld = string.split('')
-      var nuevaPalabra = []
+        var stringOld = string.split('')
+        var nuevaPalabra = []
       
-      for(var i in stringOld){
+        for(var i in stringOld){
           nuevaPalabra.unshift(stringOld[i])
-      }
-      return nuevaPalabra.join('') 
-  }
+        }
+        return nuevaPalabra.join('') 
+    }
 
   var capicua = parseInt(rever(numero.toString()),10)
 
@@ -146,9 +146,6 @@ function sortArray(arrayOfStrings) {
    // de la longitud de cada string.
    // [EJEMPLO]: ["You", "are", "beautiful", "looking"]  ---> [“You", "are", "looking", "beautiful"]
    // Tu código:
-   var nuevoArreglo = [];
-   var mayor = [];
-   var cont = 0;
    for(var i in arrayOfStrings){
       for(var j in arrayOfStrings){
          if(arrayOfStrings[i].length > arrayOfStrings[j].length){
